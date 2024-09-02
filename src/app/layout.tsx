@@ -21,7 +21,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider theme={theme}>
-          <p>Navbar</p>
           <StoreProvider>{children}</StoreProvider>
         </ThemeProvider>
       </body>
